@@ -106,7 +106,7 @@ OMP_NUM_THREADS=16 CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch -
 
 ---
 
-IF you wanna train DGCTracker on your **PRIVATE DATASET**, what is most important is that you should organize your private dataset correctly in `MOT` format and then refer the above steps to train our model.
+IF you wanna train DGCTracker on your **PRIVATE DATASET**, what is most important is that you should organize your private dataset correctly in **`MOT format`** and then refer the above steps to train our model.
 
 ## 4 Evaluation
 
