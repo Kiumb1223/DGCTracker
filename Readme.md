@@ -118,7 +118,7 @@ Taking MOT17 as an example, we set some parameters in `configs/config.py`
 
 ```python
 PATH_TO_WEIGHTS    	 = 'model_weights/MOT17.pth',
-PATH_TO_TRACKING_CFG  = 'configs/tracking_config-mot17.yaml',
+PATH_TO_TRACKING_CFG     = 'configs/tracking_config-mot17.yaml',
 EVAL_FOLDER        	 = 'datasets/eval_datasets'
 ```
 
