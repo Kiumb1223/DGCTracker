@@ -62,7 +62,7 @@ datasets
 - Due to strict account application for MOT dataset submission, we have to split MOT benchmark datasets. Specifically, we use the last 100 frames in MOT train set as validation set and use the rest frames to train our model. And in order to convenient evaluation using **TrackEval**, it’s important to generate some configuration files.
 
 ```python  
-python utils/gen_datajson.py --datasets MOT16 MOT17 --save_dataset_dir datasets\eval_datasets --save_json_dir configs
+python utils/gen_datajson.py --datasets MOT16 MOT17 --save_dataset_dir datasets/eval_datasets --save_json_dir configs
 ```
 
 ## 3 Training
@@ -78,6 +78,8 @@ python utils/gen_datajson.py --datasets MOT16 MOT17 --save_dataset_dir datasets\
     - `DATA_DIR`: Specify the root directory of the dataset.
     - `JSON_PATH`: Specify the JSON file path for a specific dataset
 </details>
+
+---
 
 Taking MOT17 as an example, we set at least five parameters in `configs/config.py`.
 
