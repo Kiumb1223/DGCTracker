@@ -134,7 +134,7 @@ python HOTA.py --dataset MOT17
 
 ## Acknowledge
 
-When I was coding the whole project, I referred to many brilliant code projects that inspired me a lot. Once again, sincerely many thanks to [SUSHI](https://github.com/dvl-tum/SUSHI.git), [ByteTrack](https://github.com/ifzhang/ByteTrack.git), [CPU](https://github.com/serend1p1ty/core-pytorch-utils.git), [BoxMOT](https://github.com/mikel-brostrom/boxmot.git), [THINKMATCH](https://github.com/Thinklab-SJTU/ThinkMatch.git),  etc. 
+When I was coding the whole project, I referred to many brilliant code projects that inspired me a lot. Once again, sincerely many thanks to [SUSHI](https://github.com/dvl-tum/SUSHI.git), [ByteTrack](https://github.com/ifzhang/ByteTrack.git), [CPU](https://github.com/serend1p1ty/core-pytorch-utils.git), [BoxMOT](https://github.com/mikel-brostrom/boxmot.git), [ThinkMatch](https://github.com/Thinklab-SJTU/ThinkMatch.git),  etc. 
 
 
 
