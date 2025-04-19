@@ -72,7 +72,7 @@ python utils/gen_datajson.py --datasets MOT16 MOT17 --save_dataset_dir datasets/
 <details>
     <summary>Configuration File</summary>
    
-### Some Parameter Description in `configs/config.py`
+### 3.1 Some Parameter Description in `configs/config.py`
  
 - `WORK_DIR`: Specify your experimental path.
 - `MODEL_YAML_PATH`: Specify your model YAML path, which contains information about model structure.
