@@ -34,7 +34,7 @@ pip install -r requirement.txt
 
 ## 2 Datasets
 
-> In fact, we support all datasets which are correctly **organized by `MOT format` **.
+> In fact, we support all datasets which are correctly **organized by `MOT format`**.
 
 - MOT16 & MOT17 & MOT20 : plz check :point_right: ​[Multiple Object Tracking Benchmark](https://motchallenge.net/)
 
@@ -71,7 +71,7 @@ python utils/gen_datajson.py --datasets MOT16 MOT17 --save_dataset_dir datasets\
 
 <details>
     <summary>Configuration File</summary>
-    ### Some Parameter Description in `configs/config.py`
+   <h3> Some Parameter Description in configs/config.py </h3>
 
     - `WORK_DIR`: Specify your experimental path.
     - `MODEL_YAML_PATH`: Specify your model YAML path, which contains information about model structure.
