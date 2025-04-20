@@ -8,7 +8,6 @@ configs/__pycache__
 dustbin
 testVideo/
 trackResult/
-model_weights/
 *.avi
 *.mp4
 *.mkv
