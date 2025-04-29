@@ -2,7 +2,7 @@
 
 > **Abstract**： The core of multi-object tracking (MOT) is to solve the data association problem of discrete object detection points in video sequences to construct continuous object trajectories. Existing methods generally fail to adequately model the spatial structural relationships between objects, leading to identity switching when objects have similar appearances or are occluded, and a significant decline in association performance in high-density scenarios. To address these limitations, this paper designs a dual-graph collaborative framework for multi-object tracking, named **DGCTracker**. This framework captures spatial geometric relationships using static graphs, learns feature space dependencies through dynamic graphs, and integrates multi-scale feature fusion via hierarchical graph convolutional networks. It shows advantages in tracking accuracy and trajectory continuity. Experimental results demonstrate that the framework achieves competitive tracking performance on MOT benchmark datasets, validating its effectiveness.
 
-![overviewoftheproposedtrackingmethod](./.asserts/overviewoftheproposedtrackingmethod.png)
+![overviewoftheproposedtrackingmethod](./.asserts/overviewoftheproposedtrackingmethod.jpg)
 
 ## 1 Installation
 
